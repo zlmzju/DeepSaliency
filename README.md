@@ -6,13 +6,13 @@ DeepSaliency is a saliency object detection framework based on fully convolution
 
 [http://www.zhaoliming.net/research/deepsaliency](http://www.zhaoliming.net/research/deepsaliency)
 
-In the project website, you can find detailed introduction, models, result maps and datasets used in our paper.
+In the project website, you can find detailed descriptions, models, result maps and datasets used in our paper.
 
-Contact: Liming Zhao [zhaoliming@zju.edu.cn](mailto: zhaoliming@zju.edu.cn)
+Contact: Liming Zhao ([zhaoliming@zju.edu.cn](mailto: zhaoliming@zju.edu.cn))
 
 ### Paper
 
-Xi Li, Liming Zhao*, Lina Wei , Ming-Hsuan Yang, Fei Wu, Yueting Zhuang, Haibin Ling, Jingdong Wang. "DeepSaliency: Multi-Task Deep Neural Network Model for Salient Object Detection“. IEEE Transactions on Image Processing (TIP), 2016. (*Corresponding Author)
+Xi Li, Liming Zhao, Lina Wei , Ming-Hsuan Yang, Fei Wu, Yueting Zhuang, Haibin Ling, Jingdong Wang. "DeepSaliency: Multi-Task Deep Neural Network Model for Salient Object Detection“. IEEE Transactions on Image Processing (TIP), 2016.
 
 
 ### Dependencies
