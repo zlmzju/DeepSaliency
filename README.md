@@ -26,3 +26,10 @@ Xi Li, Liming Zhao, Lina Wei , Ming-Hsuan Yang, Fei Wu, Yueting Zhuang, Haibin L
 - Download or clone the project code
 - In the `models` directory, download the models from [google drive](https://drive.google.com/folderview?id=0By55MQnF3PHCbFpocU5jOTdVOHM&usp=sharing)
 - Then a demo for processing one input image can be found in `demo.ipynb`.
+
+
+### Training
+
+- Download dataset to `dataset` directory
+- Run `dataset\create_caffe_data.py` to obtain the hdf5 training data
+- Then training using the script in `models\finetune.sh`
