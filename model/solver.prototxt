@@ -1,0 +1,20 @@
+net: "train_val.prototxt"
+#test_iter: 6
+## make test net, but don't invoke it from the solver itself
+#test_interval: 1000000
+display: 20
+average_loss: 20 #average loss of 20 iterations
+lr_policy: "fixed"
+# learning rate-- see train_val definition
+base_lr: 1e-10
+# high momentum
+momentum: 0.99
+# no gradient accumulation
+iter_size: 1
+max_iter: 80000
+weight_decay: 0.0005
+snapshot: 1000
+snapshot_prefix: "./snapshot/train"
+test_initialization: false
+# solver mode: CPU or GPU
+solver_mode: GPU
